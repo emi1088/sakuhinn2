@@ -1,0 +1,156 @@
+<!doctype html>
+<!-- 各メニューページからコンタクトページに飛べるように設定。コンタクトページから予約可能の流れにする-->
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Menu | Lumière Nail</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/menu.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    </head>
+
+    <body>
+        <!-- ヘッダー -->
+        <header class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Lumière Nail</h1>
+                    <p>Luxury Nail Salon</p>
+                </a>
+            </div>
+
+            <input type="checkbox" id="menu-toggle" />
+
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- タイトルページ -->
+            <section class="page-title">
+                <h2>Menu</h2>
+                <p>ライフスタイルやシーンに合わせて、上質なネイルデザインをご提供します。</p>
+            </section>
+
+            <!-- メニュー -->
+            <section class="menu">
+                <div class="menu-list">
+                    <!-- Simple -->
+                    <article class="menu-card">
+                        <span class="menu-tag">人気No.1</span>
+
+                        <a href="simple.html">
+                            <img src="img/IMG_2747.jpg" alt="Simple Course" />
+                        </a>
+
+                        <h3>Simple Course</h3>
+                        <p class="price">¥6,800</p>
+                        <p>ワンカラー・ラメグラデーション</p>
+                    </article>
+
+                    <!-- フレンチ -->
+                    <article class="menu-card">
+                        <a href="french.html">
+                            <img
+                                src="img/margarita-yutsaytis-v3-AHQ63Wws-unsplash.jpg"
+                                alt="French Course"
+                            />
+                        </a>
+
+                        <h3>French Course</h3>
+                        <p class="price">¥7,300</p>
+                        <p>フレンチ・カラーグラデーション</p>
+                    </article>
+
+                    <!-- ニュアンス -->
+                    <article class="menu-card">
+                        <a href="nuance.html">
+                            <img src="img/IMG_2748.jpg" alt="Nuance Course" />
+                        </a>
+
+                        <h3>Nuance Course</h3>
+                        <p class="price">¥7,800</p>
+                        <p>人気のニュアンスデザイン</p>
+                    </article>
+
+                    <!-- ミラー -->
+                    <article class="menu-card">
+                        <a href="mirror.html">
+                            <img src="img/jung07011--4T7M75CLU4-unsplash.jpg" alt="Mirror Course" />
+                        </a>
+
+                        <h3>Mirror Course</h3>
+                        <p class="price">¥8,000</p>
+                        <p>ミラー・オーロラネイル</p>
+                    </article>
+
+                    <!-- シーズン -->
+                    <article class="menu-card">
+                        <a href="season.html">
+                            <img src="img/zain-ali-zZ6Y78ANoEI-unsplash.jpg" alt="Season Course" />
+                        </a>
+
+                        <h3>Season Course</h3>
+                        <p class="price">¥8,500</p>
+                        <p>季節限定デザイン</p>
+                    </article>
+
+                    <!-- ブライダル -->
+                    <article class="menu-card">
+                        <a href="bridal.html">
+                            <img src="img/IMG_2745.jpg" alt="Bridal Course" />
+                        </a>
+
+                        <h3>Bridal Course</h3>
+                        <p class="price">¥9,500</p>
+                        <p>ブライダル・特別デザイン</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <!-- フッター -->
+        <footer class="footer">
+            <div class="footer-logo">
+                <h2>Lumière Nail</h2>
+                <p>Luxury Nail Salon</p>
+            </div>
+
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <p class="copyright">&copy; 2026 Lumière Nail All Rights Reserved.</p>
+        </footer>
+
+        <!-- JAVA -->
+        <script src="js/slider.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/menu.js"></script>
+    </body>
+</html>

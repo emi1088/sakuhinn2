@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/*==================================
+    Hero
+==================================*/
+
+.hero {
+    padding: 0;
+}
+
+.hero-slider {
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+/*==================================
+    Hero Text
+==================================*/
+
+.hero-text {
+    position: absolute;
+
+    top: 50%;
+    left: 10%;
+
+    transform: translateY(-50%);
+
+    color: #ffffff;
+
+    z-index: 10;
+}
+
+.hero-text h2 {
+    font-family: var(--font-title);
+
+    font-size: 4rem;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+
+    letter-spacing: 0.08em;
+
+    margin-bottom: 40px;
+}
+
+/*==================================
+    Button
+==================================*/
+
+.hero-button {
+    display: inline-block;
+
+    padding: 15px 45px;
+
+    background-color: rgba(255, 255, 255, 0.15);
+
+    color: #ffffff;
+
+    border: 1px solid #ffffff;
+
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #ffffff;
+
+    color: var(--color-main);
+}
+
+/*==================================
+    Pagination
+==================================*/
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+
+    background: #ffffff;
+
+    opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
