@@ -28,15 +28,7 @@
 ==================================*/
 
 .hero-text {
-    position: absolute;
-
-    top: 50%;
-    left: 10%;
-
-    transform: translateY(-50%);
-
     color: #ffffff;
-
     z-index: 10;
 }
 
