@@ -672,6 +672,10 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     gap: 35px;
+
+    margin:0;
+    padding:0;
+    list-style:none;
 }
 
 .footer-nav a {
