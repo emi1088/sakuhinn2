@@ -577,10 +577,10 @@ section {
 }
 
 .staff-list {
-    display: flex;
+    display: grid;
     justify-content: center;
+    justify-items:center;
     gap: 50px;
-    flex-wrap: wrap;
 
     width: min(90%, 1100px);
     margin: 0 auto;
@@ -606,7 +606,7 @@ section {
 
 /* Card */
 .staff-card {
-    width: 300px;
+    width: auto;
     padding: 30px;
 
     text-align: center;
