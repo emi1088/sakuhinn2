@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Contact | Lumière Nail</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/contact.css">
+
+        <!-- フォント -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    </head>
+
+    <body>
+        <!-- ヘッダー -->
+        <header class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Lumière Nail</h1>
+                    <p>Luxury Nail Salon</p>
+                </a>
+            </div>
+
+            <input type="checkbox" id="menu-toggle" />
+
+            <!-- ハンバーガーメニュー -->
+            <input type="checkbox" id="menu-toggle" />
+
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- ナビゲーション -->
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- ページタイトル -->
+            <section class="page-title">
+                <h2>Contact</h2>
+
+                <p>お気軽にお問い合わせ・ご予約ください</p>
+            </section>
+
+            <!-- コンタクト -->
+            <section class="contact">
+                <div class="contact-container">
+                    
+                    <!-- 入力フォーム -->
+                    <div class="contact-form">
+                        <h3>Contact Form</h3>
+
+                        <form>
+                            <div class="form-group">
+                                <label for="name">お名前</label>
+                                <input type="text" id="name" placeholder="山田 花子" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mail">メールアドレス</label>
+                                <input type="email" id="mail" placeholder="sample@example.com" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="tel">電話番号</label>
+                                <input type="tel" id="tel" placeholder="090-1234-5678" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">お問い合わせ内容</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    placeholder="ご希望のメニューやご希望日時をご入力ください。 &#10;内容を確認後、担当者よりご連絡いたします。"
+                                ></textarea>
+                            </div>
+
+                            <button type="submit" class="contact-btn">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- 店情報 -->
+                    <div class="contact-info">
+                        <h3>Salon Information</h3>
+
+                        <div class="info-item">
+                            <h4>Address</h4>
+                            <p>北海道札幌市〇〇区〇〇1-2-3</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h4>電話</h4>
+                            <p>011-123-4567</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h4>Open</h4>
+                            <p>10:00〜20:00</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h4>定休日</h4>
+                            <p>毎週　火曜日</p>
+                        </div>
+
+                        <!-- グーグルマップ -->
+                        <div class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1457.3425619420043!2d141.35065522843522!3d43.06908959439779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b290b52454ecf%3A0x2c7ab69fcb1e531c!2z44CSMDYwLTA4MDcg5YyX5rW36YGT5pyt5bmM5biC5YyX5Yy65YyX77yX5p2h6KW_77yS5LiB55uuNuKIkueVquWcsCA3MTU!5e0!3m2!1sja!2sjp!4v1785126048227!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></>"
+                                loading="lazy"
+                                allowfullscreen
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- フッター -->
+        <footer class="footer">
+            <div class="footer-logo">
+                <h2>Lumière Nail</h2>
+                <p>Luxury Nail Salon</p>
+            </div>
+
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <p class="copyright">&copy; 2026 Lumière Nail All Rights Reserved.</p>
+
+            <!-- JAVA -->
+            <script src="js/slider.js"></script>
+            <script src="js/scroll.js"></script>
+            <script src="js/menu.js"></script>
+        </footer>
+    </body>
+</html>
