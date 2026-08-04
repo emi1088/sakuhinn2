@@ -795,7 +795,7 @@ section {
 
     font-family: var(--font-title);
     font-size: clamp(2.5rem, 5vw, 3.5rem);
-    font-weight: 600;
+    font-weight: 700;
 
     color: var(--color-main);
 
