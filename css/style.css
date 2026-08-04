@@ -573,7 +573,6 @@ section {
 /*==============================
     スタッフ一覧
 ==============================*/
-
 .staff {
     background-color: var(--color-bg);
 }
@@ -739,7 +738,6 @@ section {
 /*==============================
     著作権
 ==============================*/
-
 .copyright {
     margin-top: 40px;
 
@@ -1036,10 +1034,6 @@ section {
 /*==============================
     メニュー詳細ページ
 ================================*/
-/*==============================
-    Menu Detail Page
-==============================*/
-
 .product__detail {
     width: min(90%, 1100px);
 
@@ -1055,7 +1049,6 @@ section {
 }
 
 /* 詳細ページ画像だけ調整 */
-
 .product__detail .product__image {
     width: 100%;
 
@@ -1081,7 +1074,6 @@ section {
 }
 
 /* 商品情報 */
-
 .product__detail .product__info {
     padding: 20px;
 }
@@ -1149,7 +1141,6 @@ section {
 /*==============================
     メニュー詳細ボタン
 ==============================*/
-
 .product__actions .btn {
     display: inline-flex;
 
@@ -1221,7 +1212,7 @@ section {
 
 /* 入力フォーム */
 .contact-form {
-    padding: 50px;
+    padding: 50px 50px 60px;
 
     background-color: var(--color-white);
 
@@ -1243,7 +1234,7 @@ section {
 
 /* Form */
 .form-group {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .form-group label {
@@ -1291,9 +1282,9 @@ section {
     width: 220px;
     
     display:block;
-    margin:0 auto;
+    margin: 5px auto 0;
 
-    padding: 12px 50px;
+    padding: 10px 10px;
 
     border: none;
     border-radius: 50px;
@@ -1640,6 +1631,7 @@ section {
     color: #fff;
     transform: translateY(-3px);
 }
+
 /* Responsive */
 @media (max-width: 768px) {
     .detail {
