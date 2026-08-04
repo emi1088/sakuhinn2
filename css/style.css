@@ -553,6 +553,17 @@ section {
     box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
 }
 
+/* スマホ表示 */
+@media screen and (max-width: 768px) {
+    .campaign-box {
+        padding: 40px 20px;
+    }
+
+    .campaign-box h3 {
+        width: 100%;
+        text-align: center;
+    }
+}
 /*==============================
     タイトル
 ==============================*/
@@ -1716,4 +1727,8 @@ body {
     color: #6b7280;
     font-size: 0.875rem;
     line-height: 1.5;
+}
+/* 20％オフ改行解除 */
+.nowrap {
+    white-space: nowrap;
 }
