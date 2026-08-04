@@ -192,8 +192,8 @@ section {
     position: relative;
     z-index: 1001;
 
-    width: 35px;
-    height: 25px;
+    width: 32px;
+    height: 22px;
 
     cursor: pointer;
 }
@@ -208,7 +208,11 @@ section {
 
     background-color: var(--color-main);
 
-    transition: all 0.3s ease;
+    border-radius: 2px;
+
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease;
 }
 
 .hamburger span:nth-child(1) {
@@ -224,10 +228,10 @@ section {
     bottom: 0;
 }
 
-/* ×マークに変形 */
+/* ×マーク */
 #menu-toggle:checked + .hamburger span:nth-child(1) {
     top: 50%;
-    transform: rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
 }
 
 #menu-toggle:checked + .hamburger span:nth-child(2) {
@@ -235,8 +239,9 @@ section {
 }
 
 #menu-toggle:checked + .hamburger span:nth-child(3) {
-    bottom: 50%;
-    transform: rotate(-45deg);
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
 }
 /*==================================
     トップのメイン画像エリア（ヒーローセクション）
