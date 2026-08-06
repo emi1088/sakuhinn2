@@ -1226,7 +1226,7 @@ section {
     grid-template-columns: 2fr 1fr;
     gap: 50px;
 
-    align-items: stretch;
+    align-items: stret;
 }
 
 /* 入力フォーム */
