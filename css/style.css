@@ -1225,7 +1225,8 @@ section {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 50px;
-    align-items: start;
+
+    align-items: stretch;
 }
 
 /* 入力フォーム */
@@ -1391,6 +1392,58 @@ section {
 /*==============================
     レスポンシブ
 ==============================*/
+/* iPad */
+@media screen and (max-width: 900px) {
+    /* Hero */
+    .hero-text {
+        width: 80%;
+        padding: 30px 25px;
+    }
+
+    /* Concept */
+    .concept-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .concept-image,
+    .concept-text {
+        width: 100%;
+    }
+
+    /* Popular */
+    .popular-list {
+        flex-direction: column;
+    }
+
+    /* Staff */
+    .staff-list {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* Gallery */
+    .gallery-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Menu */
+    .menu-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Contact */
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-form,
+    .contact-info {
+        padding: 40px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /* Header */
     .header {
